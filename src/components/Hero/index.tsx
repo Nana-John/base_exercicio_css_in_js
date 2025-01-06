@@ -1,10 +1,6 @@
 import { Form, HeroTitle } from './Hero.module'
 
-type Props = {
-  trocaTema: () => void
-}
-
-const Hero = (props: Props) => (
+const Hero = () => (
   <Form>
     <div className="container">
       <HeroTitle>
